@@ -1,0 +1,27 @@
+{
+  "name": "gitpod-test",
+  "version": "1.0.0",
+  "description": "Testing Gitpod",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho-test-developer/gitpod-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho-test-developer/gitpod-test/issues"
+  },
+  "homepage": "https://github.com/nacho-test-developer/gitpod-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
